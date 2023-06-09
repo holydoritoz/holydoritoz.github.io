@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Roboto+Flex:wght@300;500&family=Roboto:wght@300;500&display=swap');
+
+:root {
+  --color-primario: #111827;
+  --color-secundario: #1F2937;
+}
+
+body {
+  background-color: rgb(236, 234, 234);
+}
+
+/* Personalizando el Navbar */
+.navbar {
+  background-color: var(--color-secundario)
+}
+
+.brand img {
+  width: 30px;
+}
+
+/* Clase para el color principal */
+.bg-principal {
+  background-color: var(--color-primario);
+}
+
+/* Personalizando seccion Skills */
+.row .bg-secundary {
+  background-color: var(--color-secundario);
+}
+
+i {
+  color: #4ade80;
+}
+
+/* Personalizando a los iconos por seccion*/
+.icon-section {
+  font-size: 30px;
+}
+
+/* Portafolio */
+#portafolio .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+/* Contacto */
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+/* Footer Redes sociales */
+
+footer {
+  background-color: var(--color-primario);
+}
+
+footer i {
+  font-size: 30px;
+  color: var(--color-primario);
+  color: rgb(212, 212, 212);
+}
