@@ -28,7 +28,11 @@ body {
 }
 
 i {
-  color: #4ade80;
+  color: #3DC33D;
+}
+
+.bt-color {
+  background-color: #3DC33D;
 }
 
 /* Personalizando a los iconos por seccion*/
