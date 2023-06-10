@@ -56,10 +56,6 @@ i {
 
 /* Footer Redes sociales */
 
-footer {
-  background-color: var(--color-primario);
-}
-
 footer i {
   font-size: 30px;
   color: var(--color-primario);
