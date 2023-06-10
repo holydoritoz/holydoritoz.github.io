@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Roboto+Flex:wght@300;500&family=Roboto:wght@300;500&display=swap');
-
 :root {
   --color-primario: #111827;
   --color-secundario: #1F2937;
@@ -7,6 +5,7 @@
 
 body {
   background-color: rgb(236, 234, 234);
+  font-family: 'Electrolize', sans-serif;
 }
 
 /* Personalizando el Navbar */
