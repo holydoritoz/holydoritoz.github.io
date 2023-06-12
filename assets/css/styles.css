@@ -13,9 +13,10 @@ body {
   background-color: var(--color-secundario)
 }
 
-.brand img {
-  width: 40px;
+.brand-container a {
+  text-decoration: none;
 }
+
 
 /* Clase para el color principal */
 .bg-principal {
@@ -28,25 +29,15 @@ body {
 }
 
 i {
-  color: #3DC33D;
+  color: #4ADE80;
 }
 
-.bt-color {
-  background-color: #3DC33D;
-}
 
 /* Personalizando a los iconos por seccion*/
 .icon-section {
   font-size: 30px;
 }
 
-/* Portafolio */
-#portafolio .image-top {
-  height: 250px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-}
 
 /* Contacto */
 #Contacto form label {

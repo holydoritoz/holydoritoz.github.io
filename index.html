@@ -29,9 +29,11 @@
   <!-- Sección de navegación -->
   <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
     <div class=" container-fluid">
-      <a class="brand" href="#">
-        <img src="./assets/img/logo dev.png" alt="floppy cartoon de color gris como icono de portafolio web">
-      </a>
+      <div class="brand-container d-flex">
+        <a href="#">
+          <h4 class="text-dark">Dario Urdaneta</h4>
+        </a>
+      </div>
       <button class="navbar-toggler type=" button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -74,8 +76,8 @@
             When I&#39;m not centering a &lt;div&gt;,I like to enjoy nature and adventure sports!
           </p>
           <div class="mb-5 pb-5 d-flex justify-content-center align-items-center gap-4">
-            <button class="btn bt-color" onclick="window.location.href='#contacto'">Lets'talk</button>
-            <button class=" btn btn-dark" href="#">Curriculum.pdf</button>
+            <button class="btn btn-outline-danger" onclick="window.location.href='#contacto'">Lets'talk</button>
+            <button class="btn btn-outline-danger" href="#">Curriculum.pdf</button>
           </div>
         </div>
       </div>
@@ -84,12 +86,12 @@
 
   <!-- Section Skills&Technologies-->
   <section id="skills"
-    class="container-fluid text-center text-light vh-100 d-flex flex-column justify-content-center bg-dark">
-    <i class="fa-solid fa-laptop text-light icon-section mt-5"></i>
+    class="container-fluid text-center text-dark vh-100 d-flex flex-column justify-content-center bg-light">
+    <i class="fa-solid fa-laptop text-dark icon-section mt-5"></i>
     <h2 class="display-4 my-4 fw-bold">Expertise & Technologies
     </h2>
     <div class="container">
-      <p class="my-4 text-light fs-5">
+      <p class="my-4 text-dark fs-5">
         As a developer, I have always been passionate about writing clean, efficient code and building web applications
         that solve real-world problems. From my early days of tinkering with HTML and CSS to my current work with
         React.js
@@ -98,27 +100,27 @@
       </p>
     </div>
     <div class="row d-flex justify-content-center gap-2 mt-5">
-      <div class="col-11 col-md-4 bg-light rounded d-inline-flex align-items-center gap-2 text-dark">
+      <div class="col-12 col-md-4 bg-dark rounded d-inline-flex align-items-center gap-2 text-light">
         <i class=" fa-solid fa-circle-check icon-color"></i>
         <h3 class="my-3 fs-6">HTML5</h3>
       </div>
-      <div class="col-11 col-md-4 bg-light rounded d-inline-flex align-items-center gap-2 text-dark">
+      <div class="col-12 col-md-4 bg-dark rounded d-inline-flex align-items-center gap-2 text-light">
         <i class="fa-solid fa-circle-check icon-color"></i>
         <h3 class="my-3 fs-6">CSS</h3>
       </div>
-      <div class="col-11 col-md-4 bg-light rounded d-inline-flex align-items-center gap-2 text-dark">
+      <div class="col-12 col-md-4 bg-dark rounded d-inline-flex align-items-center gap-2 text-light">
         <i class="fa-solid fa-circle-check icon-color"></i>
         <h3 class="my-3 fs-6">Javascript</h3>
       </div>
-      <div class="col-11 col-md-4 bg-light rounded d-inline-flex align-items-center gap-2 text-dark">
+      <div class="col-12 col-md-4 bg-dark rounded d-inline-flex align-items-center gap-2 text-light">
         <i class="fa-solid fa-circle-check icon-color"></i>
         <h3 class="my-3 fs-6">React Js</h3>
       </div>
-      <div class="col-11 col-md-4 bg-light rounded d-inline-flex align-items-center gap-2 text-dark">
+      <div class="col-12 col-md-4 bg-dark rounded d-inline-flex align-items-center gap-2 text-light">
         <i class="fa-solid fa-circle-check icon-color"></i>
         <h3 class="my-3 fs-6">Node Js</h3>
       </div>
-      <div class="col-11 col-md-4 bg-light rounded d-inline-flex align-items-center gap-2 text-dark">
+      <div class="col-12 col-md-4 bg-dark rounded d-inline-flex align-items-center gap-2 text-light">
         <i class="fa-solid fa-circle-check icon-color"></i>
         <h3 class="my-3 fs-6">SQL</h3>
       </div>
@@ -126,7 +128,7 @@
   </section>
 
   <!-- Section Education-->
-  <section id="education"
+  <!-- <section id="education"
     class="container-fluid text-center text-light vh-100 d-flex flex-column align-items-center justify-content-center">
     <i class="fa-solid fa-user-graduate text-secondary icon-section"></i>
     <h2 class="display-4 my-4 text-dark fw-bold">Education
@@ -175,116 +177,57 @@
             </div>
         </div>
       </div>
-  </section>
-
-  <!-- Section Portafolio-->
-  <section id="portafolio" class="row row-cols-1 row-cols-md-4 g-4">
-    <div class=" col">
-      <div class="card">
-        <img src="./assets/img/batabit_page.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-            content. This content is a little bit longer.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="./assets/img/cupon_page.jpeg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-            content. This content is a little bit longer.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="./assets/img/iguana_page.jpeg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-            content. This content is a little bit longer.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="./assets/img/cupon_page.jpeg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-            content. This content is a little bit longer.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
-
-
-
-
-  <!-- Section Portafolio-->
-
-  <!-- <section id="portafolio"
-    class="my-5 p-5 bg-principal vh-100 d-flex flex-column align-items-center justify-content-center">
-    <i class="fa-solid fa-briefcase text-secondary icon-section"></i>
-    <h2 class="display-4 my-4 text-light fw-bold">Portafolio</h2>
-    <div class="row">
-      <div class="col-12 col-sm-4 py-2">
-        <div class="card">
-          <div class="image-top" style="background-image: url(./assets/img/batabit_page.jpeg)"></div>
-          <div class="card-body d-flex flex-column justify-content-center align-items-center">
-            <h5 class="card-title fw-bold">BataBit</h5>
-            <p class="card-text">
-              Welcome to our website dedicated to cryptocurrencies and their management. In this brief summary, we will
-              provide you with an overview of the world of cryptocurrencies, including their definition, benefits,
-              challenges, and key considerations for effective management.
-            </p>
-            <button type="button" class="btn btn-dark">
-              Visit Website
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-4 py-2">
-        <div class="card">
-          <div class="image-top" style="background-image: url(./assets/img/cupon_page.jpeg)"></div>
-          <div class="card-body d-flex flex-column justify-content-center align-items-center">
-            <h5 class="card-title fw-bold">Cuppon</h5>
-            <p class="card-text">
-              Welcome to our website dedicated to discount coupons and their management. In this brief summary, we will
-              provide you with an overview of discount coupons, their benefits, how they work, and key considerations
-              for effective management.
-            </p>
-            <button type="button" class="btn btn-dark">
-              Visit Website
-            </button>
-          </div>
-        </div>
-
-        
-      </div>
-      <div class="col-12 col-sm-4 py-2">
-        <div class="card">
-          <div class="image-top" style="background-image: url(./assets/img/iguana_page.jpeg)"></div>
-          <div class="card-body d-flex flex-column justify-content-center align-items-center">
-            <h5 class=" card-title fw-bold">Iguana Page</h5>
-            <p class="card-text">
-              Welcome to our website dedicated to getting to know iguanas as animals. In this brief summary, we will
-              provide you with an introduction to iguanas, including their characteristics, habitats, behavior, and
-              important considerations for their care and well-being.</p>
-            <button type="button" class="btn btn-dark">
-              Visit Website
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
   </section> -->
+
+  <!-- Section Portafolio-->
+  <section id="portafolio" class="my-5 p-5 bg-dark d-flex flex-column justify-content-center align-items-center v-100">
+    <i class=" fa-solid fa-briefcase text-light icon-section mt-5"></i>
+    <h2 class="display-4 my-4 fw-bold text-light">My Recent Work</h2>
+    <h4 class="display-7 my-4 text-light">Here are a few past design projects I've worked on.
+    </h4>
+    <div class="container-fluid card-group gap-2">
+      <div class="card" style="width: 18rem;">
+        <img src="./assets/img/work-1.jpeg" class="card-img-top"
+          alt="captura de pantalla de proyecto llamado batabit, lading page relacionada a las criptomonedas">
+        <div class="card-body">
+          <h5 class="card-title">BataBit</h5>
+          <p class="card-text"> Welcome to our website dedicated to cryptocurrencies and their management. In this
+            brief
+            summary, we will
+            provide you with an overview of the world of cryptocurrencies, including their definition, benefits,
+            challenges, and key considerations for effective management.</p>
+          <a href="https://github.com/holydoritoz/BetaBit" target="_blank" class="btn btn-outline-secondary">Github</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./assets/img/work-1.jpeg" class="card-img-top"
+          alt="captura de pantalla de proyecto llamado batabit, lading page relacionada a las criptomonedas">
+        <div class="card-body">
+          <h5 class="card-title">BataBit</h5>
+          <p class="card-text"> Welcome to our website dedicated to cryptocurrencies and their management. In this
+            brief
+            summary, we will
+            provide you with an overview of the world of cryptocurrencies, including their definition, benefits,
+            challenges, and key considerations for effective management.</p>
+          <a href="https://github.com/holydoritoz/BetaBit" target="_blank" class="btn btn-outline-secondary">Github</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./assets/img/work-1.jpeg" class="card-img-top"
+          alt="captura de pantalla de proyecto llamado batabit, lading page relacionada a las criptomonedas">
+        <div class="card-body">
+          <h5 class="card-title">BataBit</h5>
+          <p class="card-text"> Welcome to our website dedicated to cryptocurrencies and their management. In this
+            brief
+            summary, we will
+            provide you with an overview of the world of cryptocurrencies, including their definition, benefits,
+            challenges, and key considerations for effective management.</p>
+          <a href="https://github.com/holydoritoz/BetaBit" target="_blank" class="btn btn-outline-secondary">Github</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
 
   <!-- Seccion contacto-->
   <section id="contacto" class="container d-flex flex-column justify-content-center">
@@ -306,7 +249,7 @@
         <textarea class="form-control" placeholder="Tell me about it"></textarea>
       </div>
       <div class="my-3 text-end">
-        <button class="btn btn-danger text-light">Send</button>
+        <button class="btn btn-outline-danger">Send</button>
       </div>
     </form>
   </section>
