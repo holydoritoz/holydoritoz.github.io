@@ -1,12 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Roboto+Flex:wght@300;500&family=Roboto:wght@300;500&display=swap');
-
-:root {
-  --color-primario: #111827;
-  --color-secundario: #1F2937;
-}
-
 body {
-  background-color: rgb(236, 234, 234);
+  background-color: rgb(255, 255, 255);
+  font-family: 'Electrolize', sans-serif;
 }
 
 /* Personalizando el Navbar */
@@ -14,35 +8,29 @@ body {
   background-color: var(--color-secundario)
 }
 
-.brand img {
+.brand-container a {
+  text-decoration: none;
+}
+
+.brand-container img {
   width: 30px;
 }
 
-/* Clase para el color principal */
+/* Color personalizado para fondos de algunas secciones */
+
 .bg-principal {
-  background-color: var(--color-primario);
+  background-color: #3b1b80;
 }
 
-/* Personalizando seccion Skills */
-.row .bg-secundary {
-  background-color: var(--color-secundario);
-}
+/* Color personalizado para iconos de skills */
 
 i {
-  color: #4ade80;
+  color: #4ADE80;
 }
 
 /* Personalizando a los iconos por seccion*/
 .icon-section {
   font-size: 30px;
-}
-
-/* Portafolio */
-#portafolio .image-top {
-  height: 250px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
 }
 
 /* Contacto */
@@ -53,12 +41,8 @@ i {
 
 /* Footer Redes sociales */
 
-footer {
-  background-color: var(--color-primario);
-}
-
 footer i {
   font-size: 30px;
   color: var(--color-primario);
-  color: rgb(212, 212, 212);
+  color: rgb(255, 255, 255);
 }
