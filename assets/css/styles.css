@@ -16,6 +16,10 @@ body {
   width: 30px;
 }
 
+.bg-principal {
+  background-color: #3b1b80;
+}
+
 i {
   color: #4ADE80;
 }
