@@ -16,9 +16,13 @@ body {
   width: 30px;
 }
 
+/* Color personalizado para fondos de algunas secciones */
+
 .bg-principal {
   background-color: #3b1b80;
 }
+
+/* Color personalizado para iconos de skills */
 
 i {
   color: #4ADE80;
@@ -28,7 +32,6 @@ i {
 .icon-section {
   font-size: 30px;
 }
-
 
 /* Contacto */
 #Contacto form label {
