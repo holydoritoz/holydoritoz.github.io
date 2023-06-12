@@ -42,10 +42,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mb-2 mb-lg-0 fs-5 ms-auto">
           <li class="nav-item ">
-            <a class="nav-link text-dark" href="#skills">Expertise</a>
+            <a class="nav-link text-dark" href="#education">Education</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" aria-current="page" href="#education">Education</a>
+            <a class="nav-link text-dark" aria-current="page" href="#expertise">Expertise</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-dark" href="#portafolio">Portafolio</a>
@@ -77,19 +77,20 @@
             When I&#39;m not centering a &lt;div&gt;,I like to enjoy nature and adventure sports!
           </p>
           <div class="mb-5 pb-5 d-flex justify-content-center align-items-center gap-4">
-            <button class="btn btn-outline-danger" onclick="window.location.href='#contacto'">Lets'talk</button>
-            <button class="btn btn-outline-danger" href="#">Curriculum.pdf</button>
+            <button type="button" class="btn btn-outline-info text-dark"
+              onclick="window.location.href='#contacto'">Lets'talk</button>
+            <button type="button" class="btn btn-outline-danger text-dark" href="#">Curriculum.pdf</button>
           </div>
         </div>
       </div>
     </div>
   </header>
 
-  <!-- Section Skills&Technologies-->
-  <section id="skills"
+  <!-- Section Education&Technologies-->
+  <section id="education"
     class="container-fluid text-center text-dark vh-100 d-flex flex-column justify-content-center bg-light">
     <i class="fa-solid fa-laptop text-dark icon-section mt-5"></i>
-    <h2 class="display-4 my-4 fw-bold">Expertise & Technologies
+    <h2 class="display-4 my-4 fw-bold">Education
     </h2>
     <div class="container">
       <p class="my-4 text-dark fs-5">
@@ -100,7 +101,53 @@
         them to create great user experiences.
       </p>
     </div>
+    <div class="container accordion accordion-flush">
+      <div class="accordion-itemp">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+            aria-expanded="false" aria-controls="flush-collapseOne">
+            Desafio Latam 2023-2024 / Chile
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">HTML, CSS, Bootstrap, Git, Github, Flexbox, CSS Grid, Javascript, APIs, React,
+            JSX, SPAs, SQL, PostgreSQL, Node, API REST, Testing and more.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Platzi 2020-2023 / Chile
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">HTML, CSS, Bootstrap, Git, Github, Flexbox, CSS Grid, Javascript, APIs, React,
+            JSX, SPAs, SQL, PostgreSQL, Node, API REST, Testing and more.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Udemy 2020-2023 / Chile
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">HTML, CSS, Bootstrap, Git, Github, Flexbox, CSS Grid, Javascript, APIs, React,
+            JSX, SPAs, SQL, PostgreSQL, Node, API REST, Testing and more.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills & Technology-->
     <div class="row d-flex justify-content-center gap-2 mt-5">
+      <i class="fa-solid fa-code-branch text-dark icon-section mt-5"></i>
+      <h2 class="display-4 my-4 fw-bold">Skills & Technology
+      </h2>
       <div class="col-12 col-md-4 bg-dark rounded d-inline-flex align-items-center gap-2 text-light">
         <i class=" fa-solid fa-circle-check icon-color"></i>
         <h3 class="my-3 fs-6">HTML5</h3>
@@ -127,58 +174,6 @@
       </div>
     </div>
   </section>
-
-  <!-- Section Education-->
-  <!-- <section id="education"
-    class="container-fluid text-center text-light vh-100 d-flex flex-column align-items-center justify-content-center">
-    <i class="fa-solid fa-user-graduate text-secondary icon-section"></i>
-    <h2 class="display-4 my-4 text-dark fw-bold">Education
-    </h2>
-    <div class="card-group gap-5 rounded">
-      <div class="card d-flex align-items-center text-bg-light text-dark">
-        <img src="./assets/img/desafiolatam_logo.png" class="card-img-top w-25 mt-3"
-          alt="logo de desafio latam color verde">
-        <div class="card-body">
-          <h3 class="card-title">Desafio Latam</h3>
-          <h5 class="card-text">Web development FullStack</h3>
-            <p class="card-text">HTML5 - CSS</p>
-            <p class="card-text">Bootstrap</p>
-            <p class="card-text">Javascript</p>
-            <p class="card-text">React Js</p>
-            <div class="card-footer">
-              <small class="text-dark">2023/2024</small>
-            </div>
-        </div>
-      </div>
-      <div class="card d-flex align-items-center text-bg-light text-dark">
-        <img src="./assets/img/platzy_logo.png" class="card-img-top w-25 mt-3" alt="logo platzi color verde claro">
-        <div class="card-body">
-          <h3 class="card-title">Platzi</h3>
-          <h5 class="card-text">Web development</h3>
-            <p class="card-text">HTML5 - CSS</p>
-            <p class="card-text">SASS - Tailwinds</p>
-            <p class="card-text">Javascript</p>
-            <p class="card-text">Next Js.</p>
-            <div class="card-footer">
-              <small class="text-dark">2020/2022</small>
-            </div>
-        </div>
-      </div>
-      <div class="card d-flex align-items-center text-bg-light text-dark">
-        <img src="./assets/img/udemy_png.png" class="card-img-top w-25 mt-3" alt="logo udemy blanco">
-        <div class="card-body">
-          <h3 class="card-title">Udemy</h3>
-          <h5 class="card-text">Javascript - Typescript</h3>
-            <p class="card-text">Javascript</p>
-            <p class="card-text">Typescript</p>
-            <p class="card-text">Software Arquitecture</p>
-            <p class="card-text">Node Js</p>
-            <div class="card-footer">
-              <small class="text-dark">2021/2023</small>
-            </div>
-        </div>
-      </div>
-  </section> -->
 
   <!-- Section Portafolio-->
   <section id="portafolio" class="my-5 p-5 bg-dark d-flex flex-column justify-content-center align-items-center v-100">

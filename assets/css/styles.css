@@ -1,8 +1,3 @@
-:root {
-  --color-primario: #111827;
-  --color-secundario: #1F2937;
-}
-
 body {
   background-color: rgb(255, 255, 255);
   font-family: 'Electrolize', sans-serif;
@@ -21,20 +16,9 @@ body {
   width: 30px;
 }
 
-/* Clase para el color principal */
-.bg-principal {
-  background-color: var(--color-primario);
-}
-
-/* Personalizando seccion Skills */
-.row .bg-secundary {
-  background-color: var(--color-secundario);
-}
-
 i {
   color: #4ADE80;
 }
-
 
 /* Personalizando a los iconos por seccion*/
 .icon-section {
