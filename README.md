@@ -1,4 +1,4 @@
-# Portafolio Web
+# Portafolio Web 👋
 
 Este es mi portafolio web, donde presento algunos de los proyectos en los que he trabajado. El sitio web está desarrollado utilizando HTML, CSS y Bootstrap para una apariencia y una experiencia de usuario mejoradas.
 
