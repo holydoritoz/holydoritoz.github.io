@@ -17,6 +17,9 @@ body {
   text-decoration: none;
 }
 
+.brand-container img {
+  width: 30px;
+}
 
 /* Clase para el color principal */
 .bg-principal {
