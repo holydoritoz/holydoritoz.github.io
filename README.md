@@ -60,3 +60,5 @@ Este proyecto se distribuye bajo la Licencia [MIT](https://opensource.org/licens
 ¡Gracias por visitar mi portafolio web! Si tienes alguna pregunta o sugerencia, no dudes en contactarme.
 
 [Dario Urdaneta]
+![image](https://github.com/holydoritoz/holydoritoz.github.io/assets/54608904/d33288ec-82ba-4b32-a452-d3cd4b543a54)
+
