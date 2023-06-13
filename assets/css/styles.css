@@ -22,6 +22,11 @@ body {
   background-color: #3b1b80;
 }
 
+/* Color personalizado para iconos en la seccion de skills */
+.skills-icon .skills-icon-card i {
+  color: #212529;
+}
+
 /* Color personalizado para iconos de skills */
 
 i {
