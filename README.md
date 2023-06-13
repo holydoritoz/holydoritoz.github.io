@@ -1,5 +1,10 @@
 # Portafolio Web 👋
 
+## Fork a compañeros de Desafio Latam para completar el último desafío.
+
+1. https://github.com/arnaldotorrealba
+2. PENDIENTE
+
 Este es mi portafolio web, donde presento algunos de los proyectos en los que he trabajado. El sitio web está desarrollado utilizando HTML, CSS y Bootstrap para una apariencia y una experiencia de usuario mejoradas.
 
 ## Tecnologías utilizadas
@@ -27,10 +32,7 @@ El proyecto se organiza de la siguiente manera:
 - `css/style.css`: Aquí se encuentran los estilos personalizados para darle una apariencia única al sitio web.
 - `img`: Carpeta que contiene las imágenes utilizadas en el portafolio.
 
-## Fork a compañeros de Desafio Latam para completar el último desafío.
 
-1. https://github.com/arnaldotorrealba
-2. PENDIENTE
 
 
 ## Personalización
