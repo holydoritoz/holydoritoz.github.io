@@ -3,11 +3,7 @@ body {
   font-family: 'Electrolize', sans-serif;
 }
 
-/* Personalizando el Navbar */
-.navbar {
-  background-color: var(--color-secundario)
-}
-
+/* Navbar brand styles */
 .brand-container a {
   text-decoration: none;
 }
@@ -16,21 +12,9 @@ body {
   width: 30px;
 }
 
-/* Color personalizado para fondos de algunas secciones */
-
-.bg-principal {
-  background-color: #3b1b80;
-}
-
 /* Color personalizado para iconos en la seccion de skills */
 .skills-icon .skills-icon-card i {
   color: #212529;
-}
-
-/* Color personalizado para iconos de skills */
-
-i {
-  color: #ffffff;
 }
 
 /* Personalizando a los iconos por seccion*/
@@ -38,14 +22,7 @@ i {
   font-size: 30px;
 }
 
-/* Contacto */
-#Contacto form label {
-  font-weight: 700;
-  color: #373a3c;
-}
-
 /* Footer Redes sociales */
-
 footer i {
   font-size: 30px;
 }
