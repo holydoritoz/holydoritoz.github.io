@@ -3,7 +3,7 @@
 ## Fork a compañeros de Desafio Latam para completar el último desafío.
 
 1. https://github.com/arnaldotorrealba
-2. PENDIENTE
+2. https://github.com/NeyeskaMedina
 
 Este es mi portafolio web, donde presento algunos de los proyectos en los que he trabajado. El sitio web está desarrollado utilizando HTML, CSS y Bootstrap para una apariencia y una experiencia de usuario mejoradas.
 
