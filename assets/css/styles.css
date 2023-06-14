@@ -26,3 +26,47 @@ body {
 footer i {
   font-size: 30px;
 }
+
+/* BOTON MODO OSCURO */
+
+/* Estilo de boton*/
+input[type="checkbox"]{
+  position: relative;
+  width: 40px;
+  height: 20px;
+  background-color: gray;
+  appearance: none;
+  outline: none; 
+  border-radius: 20px; 
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+/*Al momento del evento*/
+
+input[type="checkbox"]:checked{
+  background-color: green;
+}
+/* Estilo del boton circular*/
+
+input[type="checkbox"]::before{
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  border-radius: 50%;
+  top: 2px;
+  left: 2px;
+  transition: 0.7s ease;
+}
+
+/*Momiviento del boton circular */
+input[type="checkbox"]:checked::before{
+  transform: translateX(20px);
+}
+
+/*CSS MODIFICADO DESDE JS*/
+.modo-oscuro{
+  background-color: rgba(92, 91, 91, 0.879);
+  color: white;
+}
