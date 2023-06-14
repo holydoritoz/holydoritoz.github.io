@@ -27,7 +27,7 @@ footer i {
   font-size: 30px;
 }
 
-.card-body{
+.card-body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
